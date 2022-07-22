@@ -32,6 +32,16 @@
 $ npm install
 ```
 
+## ENV setup
+
+create a `.env` file in root folder and add below configuration
+```bash
+MONGODB_URL=<Mongo_url>
+NODE_ENV=<Node_env>
+GRAPHQL_SCHEMA_FILEPATH=schema.gql
+GRAPHQL_INTROSPECTION=true
+```
+
 ## Running the app
 
 ```bash
